@@ -7,6 +7,7 @@ import {
   Linkedin,
   Facebook,
   Doc,
+  logo,
   menu,
 } from "../../constants";
 import Lottie from "react-lottie";
@@ -61,6 +62,7 @@ const Head = () => {
       <header className="header">
         <nav className="nav">
           <a href="@" className="nav__logo">
+            <img src={logo} alt="paulslogo" />
             <h1>OCHIENG</h1>
           </a>
           <ul className="nav__list">
@@ -201,6 +203,7 @@ const Head = () => {
       {/* second nav */}
       <nav className={navbar ? "nav--scroll" : "nav container"}>
         <a href="@" className="nav__logo">
+          <img src={logo} alt="paulslogo" />
           <h1>OCHIENG</h1>
         </a>
         <ul className="nav__list">

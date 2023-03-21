@@ -65,7 +65,21 @@
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
+}
+
+.nav__logo:hover {
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav__logo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
 }
 
 .nav__list {

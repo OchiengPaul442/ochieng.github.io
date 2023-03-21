@@ -101,4 +101,7 @@
   .experience__card__body {
     width: 80%;
   }
+  .desc_info {
+    text-align: center;
+  }
 }

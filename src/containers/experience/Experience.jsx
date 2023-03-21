@@ -12,7 +12,7 @@ const Experience = () => {
     window.addEventListener("resize", () => setWidth(window.innerWidth));
   }, []);
 
-  let results = breakpoint < width ? "white" : "black";
+  let results = breakpoint < width ? "white" : "#5a5d87";
 
   return (
     <section className="wrapper" id="experience">
