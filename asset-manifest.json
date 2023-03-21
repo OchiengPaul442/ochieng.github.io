@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfoliosite/static/css/main.f045f703.css",
-    "main.js": "/portfoliosite/static/js/main.d6680e88.js",
+    "main.css": "/portfoliosite/static/css/main.1eb425ad.css",
+    "main.js": "/portfoliosite/static/js/main.3a34c159.js",
     "static/media/paul.png": "/portfoliosite/static/media/paul.e35be261006a7da6beef.png",
     "static/media/php.svg": "/portfoliosite/static/media/php.7c8744f2ab546f61d58d07dfd65ae401.svg",
+    "static/media/paulslogo.png": "/portfoliosite/static/media/paulslogo.c2ca42872efe69771ee1.png",
     "static/media/unralogo.png": "/portfoliosite/static/media/unralogo.7b99182816021309c796.png",
     "static/media/laravel.svg": "/portfoliosite/static/media/laravel.6f8afa8068ec283083af194c57f425bc.svg",
     "static/media/mysql.svg": "/portfoliosite/static/media/mysql.5dbd7ffb56a921cecde426cca82f0df4.svg",
@@ -35,11 +36,11 @@
     "static/media/npm.svg": "/portfoliosite/static/media/npm.6382f0d2f478902a0c833577ae39e927.svg",
     "static/media/tailwind.svg": "/portfoliosite/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/html5.svg": "/portfoliosite/static/media/html5.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.f045f703.css.map": "/portfoliosite/static/css/main.f045f703.css.map",
-    "main.d6680e88.js.map": "/portfoliosite/static/js/main.d6680e88.js.map"
+    "main.1eb425ad.css.map": "/portfoliosite/static/css/main.1eb425ad.css.map",
+    "main.3a34c159.js.map": "/portfoliosite/static/js/main.3a34c159.js.map"
   },
   "entrypoints": [
-    "static/css/main.f045f703.css",
-    "static/js/main.d6680e88.js"
+    "static/css/main.1eb425ad.css",
+    "static/js/main.3a34c159.js"
   ]
 }
