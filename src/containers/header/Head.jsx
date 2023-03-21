@@ -206,6 +206,8 @@ const Head = () => {
         <ul className="nav__list">
           <li className="nav__item">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/paulochieng442/"
               className="nav__link"
             >
@@ -213,12 +215,19 @@ const Head = () => {
             </a>
           </li>
           <li className="nav__item">
-            <a href="https://twitter.com/OchiengTech" className="nav__link">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/OchiengTech"
+              className="nav__link"
+            >
               <img src={Twitter} alt="Twitter" />
             </a>
           </li>
           <li className="nav__item">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.facebook.com/ochieng.paul.714/"
               className="nav__link"
             >
@@ -226,7 +235,12 @@ const Head = () => {
             </a>
           </li>
           <li className="nav__item">
-            <a href="https://github.com/OchiengPaul442" className="nav__link">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/OchiengPaul442"
+              className="nav__link"
+            >
               <img src={Github} alt="GitHub" />
             </a>
           </li>
