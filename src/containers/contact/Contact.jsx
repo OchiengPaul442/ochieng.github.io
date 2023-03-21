@@ -3,50 +3,10 @@ import "./contact.css";
 import { RecBtn } from "../../components/buttons/Buttons";
 import { contact } from "../../constants";
 import CircularIcons from "../../components/circularicon/CircularIcons";
-// import nodemailer from "nodemailer";
 
 const Contact = () => {
   const Email = "treostyle1@gmail.com";
   const mailto = `mailto:${Email}`;
-
-  // submit form data
-  const handleSubmit = (e) => {};
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-
-  //   const formData = new FormData(e.target);
-  //   const name = formData.get("name");
-  //   const email = formData.get("email");
-  //   const message = formData.get("message");
-
-  //   const transporter = nodemailer.createTransport({
-  //     host: "smtp.gmail.com",
-  //     port: 465,
-  //     secure: true,
-  //     auth: {
-  //       user: "treostyle1@gmail.com",
-  //       pass: "Godismyhero@12345",
-  //     },
-  //   });
-
-  //   const mailOptions = {
-  //     from: email,
-  //     to: "treostyle1@gmail.com",
-  //     subject: `New message from ${name}`,
-  //     text: message,
-  //   };
-
-  //   transporter.sendMail(mailOptions, function (error, info) {
-  //     if (error) {
-  //       console.error(error);
-  //       alert("Error: Could not send message");
-  //     } else {
-  //       console.log("Email sent: " + info.response);
-  //       alert("Message sent!");
-  //     }
-  //   });
-  // };
 
   return (
     <section className="wrapper" id="contact">
