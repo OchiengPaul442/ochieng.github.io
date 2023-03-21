@@ -1,0 +1,42 @@
+/* css for the recbtn */
+
+.button {
+  border: none;
+  box-shadow: 0 5px 15px rgba(116, 116, 116, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: "green";
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(116, 116, 116, 0.5);
+}
+
+.button:active {
+  transform: translateY(0.5em);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.round-button {
+  border: none;
+  box-shadow: 0 5px 15px rgba(116, 116, 116, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+  background: black;
+}
+
+.round-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(116, 116, 116, 0.5);
+}
+
+.round-button:active {
+  transform: translateY(0.5em);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}

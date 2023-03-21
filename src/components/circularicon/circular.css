@@ -1,0 +1,25 @@
+.circleIcon {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.circularBtn {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(116, 116, 116, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.circularBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(116, 116, 116, 0.5);
+}
