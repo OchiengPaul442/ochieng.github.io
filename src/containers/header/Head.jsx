@@ -50,7 +50,10 @@ const Head = () => {
   };
 
   const handlePress = () => {
-    alert("yes clicked");
+    // download resume
+    const Doc =
+      "https://drive.google.com/file/d/1V8hKJAW8Yuulsa39EvxmJ9StvYZuv6vz/view?usp=sharing";
+    window.open(Doc, "_blank");
   };
 
   return (
@@ -63,7 +66,7 @@ const Head = () => {
           <ul className="nav__list">
             <li className="nav__item">
               <a
-                href="https://www.linkedin.com/in/paulochieng442/"
+                href="https://www.linkedin.com/in/paulochieng442"
                 className="nav__link"
               >
                 <img src={Linkedin} alt="GitHub" />
@@ -76,7 +79,7 @@ const Head = () => {
             </li>
             <li className="nav__item">
               <a
-                href="https://www.facebook.com/ochieng.paul.714/"
+                href="https://www.facebook.com/ochieng.paul.714"
                 className="nav__link"
               >
                 <img src={Facebook} alt="FaceBook" />
@@ -95,15 +98,20 @@ const Head = () => {
         <div className="container intro__wrapper">
           <div className="intro">
             <h1 className="intro__title">Hi, I'm Paul Ochieng</h1>
-            <h2 className="intro__subtitle">I'm a Frontend Developer</h2>
+            <h2 className="intro__subtitle">I'm a web and mobile developer</h2>
             <p className="intro__text">
-              I'm a Frontend Developer based in Nairobi, Kenya. I specialize in
-              building (and occasionally designing) exceptional websites,
-              applications, and everything in between.
+              I'm based in Kampala, Uganda. I have 3 years of experience in
+              creating beautiful and functional websites and apps for various
+              clients and projects. I'm passionate about using the latest
+              technologies and best practices to deliver high-quality solutions
+              that meet your needs and expectations. Whether you need a landing
+              page, an e-commerce site, a blog, or mobile application, I'm here
+              to help you achieve your goals.
             </p>
             <div style={{ display: "flex" }}>
               <CircularIcons
                 icon={Twitter}
+                linkto="https://twitter.com/OchiengTech"
                 style={{
                   width: 20,
                   height: 20,
@@ -118,6 +126,7 @@ const Head = () => {
               />
               <CircularIcons
                 icon={Github}
+                linkto="https://github.com/OchiengPaul442"
                 style={{
                   width: 20,
                   height: 20,
@@ -132,6 +141,7 @@ const Head = () => {
               />
               <CircularIcons
                 icon={Linkedin}
+                linkto="https://www.linkedin.com/in/paulochieng442"
                 style={{
                   width: 20,
                   height: 20,
@@ -146,6 +156,7 @@ const Head = () => {
               />
               <CircularIcons
                 icon={Facebook}
+                linkto="https://www.facebook.com/ochieng.paul.714"
                 style={{
                   width: 20,
                   height: 20,
@@ -159,6 +170,7 @@ const Head = () => {
                 }}
               />
             </div>
+
             <RecButtons
               text="SEE MY RESUME"
               style={{
@@ -173,7 +185,11 @@ const Head = () => {
                 margin: "35px 0",
               }}
               icon={Doc}
-              iconstyle={{ width: "20px", height: "20px", marginRight: "10px" }}
+              iconstyle={{
+                width: "20px",
+                height: "20px",
+                marginRight: "10px",
+              }}
               onPress={handlePress}
             />
           </div>

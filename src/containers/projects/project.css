@@ -57,3 +57,30 @@
   align-items: center;
   justify-content: flex-start;
 }
+
+.view__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.view__project__btn {
+  position: relative;
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 47px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: #5a5d87;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.view__project__btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}

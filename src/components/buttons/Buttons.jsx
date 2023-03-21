@@ -12,7 +12,7 @@ export const RecButtons = (props) => {
 
 export const RecBtn = (props) => {
   return (
-    <button className="button" {...props}>
+    <button type="submit" name="submit" className="button" {...props}>
       {props.text}
     </button>
   );

@@ -18,19 +18,35 @@ const Modal = (props) => {
           </div>
           <div className="separator"></div>
           <div className="modal__body">
-            <a href="@">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/OchiengTech"
+            >
               <Twitter fill="black" width={20} height={20} />
               <span>Twitter</span>
             </a>
-            <a href="@">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/ochieng.paul.714"
+            >
               <Facebook fill="black" width={20} height={20} />
               <span>Facebook</span>
             </a>
-            <a href="@">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/paulochieng442"
+            >
               <Linkedin fill="black" width={20} height={20} />
               <span>Linkedin</span>
             </a>
-            <a href="@">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/OchiengPaul442"
+            >
               <Github fill="black" width={20} height={20} />
               <span>Github</span>
             </a>

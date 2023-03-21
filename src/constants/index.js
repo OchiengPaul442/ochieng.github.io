@@ -22,6 +22,7 @@ import bolt from "../assets/icons/bolt.svg";
 import contact from "../assets/icons/contact.svg";
 import downarrow from "../assets/icons/downarrow.svg";
 import menu from "../assets/icons/menu.svg";
+import laravel from "../assets/icons/laravel.svg";
 
 // images
 import unra from "../assets/images/unralogo.png";
@@ -30,6 +31,7 @@ import paul from "../assets/images/paul.png";
 export {
   menu,
   cases,
+  laravel,
   bolt,
   downarrow,
   contact,

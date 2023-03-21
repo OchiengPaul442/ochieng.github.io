@@ -19,6 +19,7 @@
   width: 400px;
   height: auto;
   padding: 20px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +27,28 @@
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.badge {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 30px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 4px;
+  background-color: orange;
+}
+
+.education__content__item h1 {
+  color: #5a5d87;
+}
+
+.education__content__item h4 {
+  color: #5a5d87;
+  font-weight: 400;
 }
 
 .progress__bars {

@@ -21,6 +21,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 5px 0;
 }
 
 .work__right__title {
@@ -62,7 +63,7 @@
 }
 
 .circularicon_wrapper {
-  width: 350px;
+  width: 420px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -73,6 +74,9 @@
 /* responsiveness of the screen */
 
 @media screen and (max-width: 768px) {
+  .circularicon_wrapper {
+    width: 100%;
+  }
   .work__container {
     flex-direction: column-reverse;
   }
@@ -87,6 +91,9 @@
 /* responsiveness of the screen */
 
 @media screen and (max-width: 480px) {
+  .circularicon_wrapper {
+    width: 100%;
+  }
   .work__container {
     flex-direction: column-reverse;
   }

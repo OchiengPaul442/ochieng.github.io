@@ -16,8 +16,8 @@ import {
   reps,
   node,
   bolt,
+  laravel,
 } from "../../constants";
-import Scroll from "../../components/scroll/Scroll";
 
 const Work = () => {
   // screen width
@@ -115,6 +115,19 @@ const Work = () => {
                 }}
               />
               <CircularIcons
+                icon={laravel}
+                style={{
+                  width: 34,
+                  height: 34,
+                  marginTop: 3,
+                }}
+                alt="python"
+                circledimension={{
+                  width: 64,
+                  height: 64,
+                }}
+              />
+              <CircularIcons
                 icon={npm}
                 style={{
                   width: 34,
@@ -182,9 +195,7 @@ const Work = () => {
                   alt="bolt"
                   style={{ marginRight: "8px", width: 20, height: 20 }}
                 />
-                <p>
-                  I'm a Frontend Developer based in Nairobi, Kenya. I specialize
-                </p>
+                <p>Building responsive Single-Page-Apps in React.js</p>
               </span>
               <span className="desc_info">
                 <img
@@ -192,9 +203,7 @@ const Work = () => {
                   alt="bolt"
                   style={{ marginRight: "8px", width: 20, height: 20 }}
                 />
-                <p>
-                  I'm a Frontend Developer based in Nairobi, Kenya. I specialize
-                </p>
+                <p>Building E-commerce sites in Laravel</p>
               </span>
               <span className="desc_info">
                 <img
@@ -202,9 +211,7 @@ const Work = () => {
                   alt="bolt"
                   style={{ marginRight: "8px", width: 20, height: 20 }}
                 />
-                <p>
-                  I'm a Frontend Developer based in Nairobi, Kenya. I specialize
-                </p>
+                <p>Building RESTful APIs in Django & Django REST Framework</p>
               </span>
             </div>
           </div>
@@ -256,16 +263,30 @@ const Work = () => {
                 }}
               />
             </span>
-            <div style={{ marginTop: "15px" }}>
+            <div
+              style={{
+                marginTop: "15px",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
               <span className="desc_info">
                 <img
                   src={bolt}
                   alt="bolt"
                   style={{ marginRight: "8px", width: 20, height: 20 }}
                 />
-                <p>
-                  I'm a Frontend Developer based in Nairobi, Kenya. I specialize
-                </p>
+                <p>Experience in building mobile apps in React Native</p>
+              </span>
+              <span className="desc_info">
+                <img
+                  src={bolt}
+                  alt="bolt"
+                  style={{ marginRight: "8px", width: 20, height: 20 }}
+                />
+                <p>Use Figma to design the UI/UX of the mobile apps I build</p>
               </span>
               <span className="desc_info">
                 <img
@@ -274,32 +295,14 @@ const Work = () => {
                   style={{ marginRight: "8px", width: 20, height: 20 }}
                 />
                 <p>
-                  I'm a Frontend Developer based in Nairobi, Kenya. I specialize
-                </p>
-              </span>
-              <span className="desc_info">
-                <img
-                  src={bolt}
-                  alt="bolt"
-                  style={{ marginRight: "8px", width: 20, height: 20 }}
-                />
-                <p>
-                  I'm a Frontend Developer based in Nairobi, Kenya. I specialize
+                  Building Scalable apps using Node.js & Express.js for the
+                  backend
                 </p>
               </span>
             </div>
           </div>
         </div>
       </div>
-      {/* smooth scroll to next section */}
-      <Scroll
-        to="education"
-        style={{
-          position: "absolute",
-          bottom: "270px",
-          right: "20px",
-        }}
-      />
     </section>
   );
 };

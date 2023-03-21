@@ -29,6 +29,7 @@ const Footer = () => {
             <div className="social__icons">
               <CircularIcons
                 icon={Twitter}
+                linkto="https://twitter.com/OchiengTech"
                 style={{
                   width: 20,
                   height: 20,
@@ -42,6 +43,7 @@ const Footer = () => {
               />
               <CircularIcons
                 icon={Github}
+                linkto="https://github.com/OchiengPaul442"
                 style={{
                   width: 20,
                   height: 20,
@@ -55,6 +57,7 @@ const Footer = () => {
               />
               <CircularIcons
                 icon={Facebook}
+                linkto="https://www.facebook.com/ochieng.paul.714"
                 style={{
                   width: 20,
                   height: 20,
@@ -68,6 +71,7 @@ const Footer = () => {
               />
               <CircularIcons
                 icon={Linkedin}
+                linkto="https://www.linkedin.com/in/paulochieng442"
                 style={{
                   width: 20,
                   height: 20,

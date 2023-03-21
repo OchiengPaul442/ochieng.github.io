@@ -14,6 +14,10 @@
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -28,7 +32,7 @@
   justify-content: flex-start;
 }
 
-/*  */
+/* button css on github link */
 
 .Github__link {
   display: flex;
@@ -69,7 +73,7 @@ button.learn-more .circle {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #282936;
+  background: #119bef;
   border-radius: 1.625rem;
 }
 
@@ -129,4 +133,27 @@ button:hover .circle .icon.arrow {
 
 button:hover .button-text {
   color: #fff;
+}
+
+/* other tools sections */
+
+.other__tools {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #738cc81a;
+}
+
+.other__tool__text h1 {
+  text-align: center;
+  color: #5a5d87;
+  margin-bottom: 25px;
+}
+
+.other__tools__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

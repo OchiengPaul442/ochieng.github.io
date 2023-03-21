@@ -2,7 +2,6 @@ import React from "react";
 import CircularIcons from "../../components/circularicon/CircularIcons";
 import { unra, cases } from "../../constants";
 import "./experience.css";
-import Scroll from "../../components/scroll/Scroll";
 
 const Experience = () => {
   // screen width
@@ -61,25 +60,17 @@ const Experience = () => {
 
             <p className="job__location">Nakawa</p>
 
-            <p className="job__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quod, voluptatum, quia, voluptas quas voluptates quibusdam
-              voluptatibus quae quidem quos quas voluptates quibusdam
-              voluptatibus quae quidem quos quas voluptates quibusdam
-              voluptatibus quae quidem quos quas voluptates quibusdam
-            </p>
+            <ul className="job__description">
+              <li>Implemented RESTful APIs in Django.</li>
+              <li>
+                Used Angular for frontend development of a laboratory management
+                system.
+              </li>
+              <li>Wrote scalable code for applications.</li>
+            </ul>
           </div>
         </div>
       </div>
-      {/* smooth scroll to next section */}
-      <Scroll
-        to="projects"
-        style={{
-          position: "absolute",
-          bottom: "-70px",
-          right: "20px",
-        }}
-      />
     </section>
   );
 };

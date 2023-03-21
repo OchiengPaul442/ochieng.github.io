@@ -2,7 +2,6 @@ import React from "react";
 import "./education.css";
 import CircularIcons from "../../components/circularicon/CircularIcons";
 import { books } from "../../constants";
-import Scroll from "../../components/scroll/Scroll";
 
 const Education = () => {
   return (
@@ -38,6 +37,7 @@ const Education = () => {
               <h4>Bachelor of Science in Computer Science</h4>
               <p className="education__content__item__date">2020 - current</p>
             </div>
+            <span className="badge">Student</span>
           </div>
         </div>
 
@@ -74,15 +74,6 @@ const Education = () => {
           </div>
         </div>
       </div>
-      {/* smooth scroll to next section */}
-      <Scroll
-        to="experience"
-        style={{
-          position: "absolute",
-          bottom: "70px",
-          right: "20px",
-        }}
-      />
     </section>
   );
 };
