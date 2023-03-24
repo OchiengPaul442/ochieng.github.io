@@ -1,86 +1,41 @@
 import React from "react";
 import "./contact.css";
-import { RecBtn } from "../../components/buttons/Buttons";
-import { contact } from "../../constants";
-import CircularIcons from "../../components/circularicon/CircularIcons";
 
 const Contact = () => {
-  const Email = "treostyle1@gmail.com";
+  const Email = "ochiengpaul442@gmail.com";
   const mailto = `mailto:${Email}`;
 
   return (
     <section className="wrapper" id="contact">
-      <h2 className="project__title">
-        <CircularIcons
-          icon={contact}
-          style={{
-            width: "2.5rem",
-            height: "2.5rem",
-            marginLeft: "3px",
-          }}
-          circledimension={{
-            width: 64,
-            height: 64,
-          }}
-          text="Contact Me"
-          textstyle={{
-            fontSize: "30px",
-            fontWeight: "bold",
-            color: "#5a5d87",
-          }}
-        />
-      </h2>
-      <div className="contact__form__container container">
-        <form action={mailto} method="post" className="contact__form">
-          <div className="contact__heading">
-            <h2 className="contact__form__title">Want to work with Me</h2>
-            <p>Reach out to me using the form below.</p>
+      <div className="container">
+        <div className="contact__container">
+          <div className="contact__box__con">
+            <div className="contact__box">
+              <div className="contact__box__item">
+                <div className="contact__box__item__con">
+                  <h1 className="contact__box__item__title">
+                    Let Us Work Together On Your Next Project
+                  </h1>
+                  <p className="contact__box__item__text">
+                    I am available for freelance work. If you have a project
+                    that you would like to get started, or think you need my
+                    help with
+                  </p>
+                </div>
+              </div>
+              <div className="contact__box__item">
+                <a href={mailto}>
+                  <button class="button">
+                    <span class="button_lg">
+                      <span class="button_sl"></span>
+                      <span class="button_text">Contact Me</span>
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="contact__form__group">
-            <label htmlFor="name">Name</label>
-            <input
-              type="text"
-              required={true}
-              name="name"
-              id="name"
-              placeholder="Your name"
-            />
-          </div>
-          <div className="contact__form__group">
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              required={true}
-              placeholder="Your email"
-            />
-          </div>
-          {/* <div className="contact__form__group">
-            <label htmlFor="message">Message</label>
-            <textarea
-              required={true}
-              name="message"
-              id="message"
-              placeholder="Your message"
-            />
-          </div> */}
-          <RecBtn
-            text="Send"
-            style={{
-              width: "100%",
-              padding: "1rem 0",
-              fontSize: "1.5rem",
-              fontWeight: "500",
-              borderRadius: "5px",
-              backgroundColor: "#1e1e1e",
-              color: "#fff",
-              border: "none",
-              cursor: "pointer",
-              transition: "all 0.3s ease-in-out",
-            }}
-          />
-        </form>
+        </div>
       </div>
     </section>
   );

@@ -2,7 +2,7 @@
   background-color: #119bef;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: relative;
-  height: 95vh;
+  height: 94vh;
   width: 100%;
   top: 0;
   left: 0;
@@ -26,7 +26,7 @@
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 20px 0;
   z-index: 100;
 }
@@ -122,8 +122,8 @@
 
 .intro__wrapper {
   position: relative;
-  top: 100px;
   display: flex;
+  padding: 65px 0;
   justify-content: space-between;
   align-items: center;
 }
@@ -160,6 +160,9 @@
     height: auto;
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .nav {
+    justify-content: space-around;
   }
   .ham__menu {
     display: block;
@@ -199,6 +202,11 @@
 }
 
 @media screen and (max-width: 480px) {
+  .header {
+    height: auto;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
   .intro__title {
     font-size: 30px;
   }
@@ -212,5 +220,8 @@
   .btn {
     font-size: 12px;
     padding: 10px 15px;
+  }
+  .intro__wrapper {
+    padding: 20px 0;
   }
 }
