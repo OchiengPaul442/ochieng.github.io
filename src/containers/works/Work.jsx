@@ -4,6 +4,7 @@ import animatedata1 from "../../assets/animations/data.json";
 import animatedata3 from "../../assets/animations/data3.json";
 import "./work.css";
 import CircularIcons from "../../components/circularicon/CircularIcons";
+import ScrollAnimation from "react-animate-on-scroll";
 import {
   css,
   html,
@@ -52,13 +53,15 @@ const Work = () => {
           <h1>What I Do</h1>
         </div>
         <div className="work__container">
-          <div className="work__left">
-            <Lottie
-              options={defaultOptions_2}
-              height={breakpoint < width ? 400 : 300}
-              width={breakpoint < width ? 400 : 300}
-            />
-          </div>
+          <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
+            <div className="work__left">
+              <Lottie
+                options={defaultOptions_2}
+                height={breakpoint < width ? 400 : 300}
+                width={breakpoint < width ? 400 : 300}
+              />
+            </div>
+          </ScrollAnimation>
           <div className="work__right">
             <h1 className="work__right__title">Web Development</h1>
             <span className="circularicon_wrapper">
@@ -218,7 +221,13 @@ const Work = () => {
         </div>
         <div className="work__container">
           <div className="work__left">
-            <Lottie options={defaultOptions} height={400} width={400} />
+            <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
+              <Lottie
+                options={defaultOptions}
+                height={breakpoint < width ? 400 : 300}
+                width={breakpoint < width ? 400 : 300}
+              />
+            </ScrollAnimation>
           </div>
           <div className="work__right">
             <h1 className="work__right__title">Mobile Development</h1>
