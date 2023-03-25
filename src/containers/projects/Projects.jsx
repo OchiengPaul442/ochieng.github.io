@@ -157,7 +157,7 @@ const Projects = () => {
               </div>
             </div>
           </ScrollAnimation>
-          <ScrollAnimation animateIn="zoomIn" animateOnce={true} delay={800}>
+          <ScrollAnimation animateIn="zoomIn" animateOnce={true} delay={600}>
             <div className="project__card">
               <div className="project__card__title">
                 Cloud chat(chat application)
