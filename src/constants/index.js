@@ -27,8 +27,10 @@ import laravel from "../assets/icons/laravel.svg";
 // images
 import unra from "../assets/images/unralogo.png";
 import paul from "../assets/images/paul.png";
+import logo from "../assets/images/paulslogo.png";
 
 export {
+  logo,
   menu,
   cases,
   laravel,
