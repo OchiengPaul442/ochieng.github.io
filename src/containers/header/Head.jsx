@@ -28,19 +28,28 @@ const Head = () => {
     setShowModal(false);
   };
 
-  // fix navbar on scroll
-  const [navbar, setNavbar] = React.useState(false);
+  // height from top
+  const [height, setHeight] = React.useState(0);
 
-  const changeBackground = () => {
-    if (window.scrollY >= 80) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
+  const handleScroll = () => {
+    setHeight(window.scrollY);
   };
 
-  // scroll
-  window.addEventListener("scroll", changeBackground);
+  // fix navbar on scroll
+  const [show, setShow] = React.useState(true);
+  const [lastScroll, setLastScroll] = React.useState(0);
+
+  const controlNavbar = () => {
+    if (window.scrollY >= lastScroll) {
+      setShow(false);
+    } else {
+      setShow(true);
+    }
+    setLastScroll(window.scrollY);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  window.addEventListener("scroll", controlNavbar);
 
   const defaultOptions = {
     loop: true,
@@ -62,7 +71,14 @@ const Head = () => {
     <section id="home">
       <header className="header">
         <div className="container">
-          <nav className="nav">
+          <nav
+            className={show ? "navbar" : "navbar hidden"}
+            style={
+              height
+                ? { backgroundColor: "#5a5d87" }
+                : { backgroundColor: "transparent", boxShadow: "none" }
+            }
+          >
             <a href="@" className="nav__logo">
               <img src={logo} alt="paulslogo" />
               <h1>OCHIENG</h1>
@@ -209,58 +225,7 @@ const Head = () => {
           </div>
         </div>
       </header>
-      {/* second nav */}
-      <nav className={navbar ? "nav--scroll" : "nav container"}>
-        <a href="@" className="nav__logo">
-          <img src={logo} alt="paulslogo" />
-          <h1>OCHIENG</h1>
-        </a>
-        <ul className="nav__list">
-          <li className="nav__item">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/paulochieng442/"
-              className="nav__link"
-            >
-              <img src={Linkedin} alt="GitHub" />
-            </a>
-          </li>
-          <li className="nav__item">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://twitter.com/OchiengTech"
-              className="nav__link"
-            >
-              <img src={Twitter} alt="Twitter" />
-            </a>
-          </li>
-          <li className="nav__item">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.facebook.com/ochieng.paul.714/"
-              className="nav__link"
-            >
-              <img src={Facebook} alt="FaceBook" />
-            </a>
-          </li>
-          <li className="nav__item">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/OchiengPaul442"
-              className="nav__link"
-            >
-              <img src={Github} alt="GitHub" />
-            </a>
-          </li>
-        </ul>
-        <button onClick={handleShowModal} className="ham__menu">
-          <img src={menu} height={30} width={30} alt="menu" />
-        </button>
-      </nav>
+
       {/* modal */}
       <Modal
         show={showModal ? "modal__show" : "modal__hide"}
