@@ -84,3 +84,110 @@
   transform: translateY(-5px);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+/* mobile view */
+
+@media screen and (max-width: 768px) {
+  .project__title {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .projects_con {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .project__card {
+    width: 350px;
+    height: 280px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  .project__card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  .project__card__title {
+    margin-bottom: 20px;
+    display: flex;
+    font-weight: 600;
+    font-size: 32px;
+    flex-direction: row;
+    align-items: center;
+    color: #5a5d87;
+    justify-content: flex-start;
+  }
+  .project__card__description {
+    margin-bottom: 20px;
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .project__link__btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .view__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .view__project__btn {
+    position: relative;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 47px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #5a5d87;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  .view__project__btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+  .project__card__title {
+    font-size: 24px;
+  }
+  .project__card__description {
+    font-size: 14px;
+  }
+  .project__link__btn {
+    font-size: 14px;
+  }
+  .view__project__btn {
+    width: 48px;
+    height: 37px;
+  }
+  .view__project__btn__text {
+    font-size: 14px;
+  }
+  .view__project__btn__icon {
+    font-size: 14px;
+  }
+  .project__card__title {
+    font-size: 24px;
+  }
+  .project__card__description {
+    font-size: 14px;
+  }
+}

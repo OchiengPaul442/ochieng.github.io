@@ -73,6 +73,13 @@
 /* responsiveness of the screen */
 
 @media screen and (max-width: 768px) {
+  .work__title h1 {
+    font-size: 2rem;
+  }
+  .work__right__title {
+    font-size: 2rem;
+    text-align: center;
+  }
   .circularicon_wrapper {
     width: 100%;
   }

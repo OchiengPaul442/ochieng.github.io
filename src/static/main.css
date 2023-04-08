@@ -226,3 +226,25 @@ button:hover .button-text {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+/* mobile view */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .other__tools__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

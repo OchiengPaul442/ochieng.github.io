@@ -32,6 +32,12 @@
   margin-bottom: 1rem;
 }
 
+.current__project__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* mobile view */
 
 @media screen and (max-width: 768px) {

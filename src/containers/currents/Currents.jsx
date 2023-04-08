@@ -23,7 +23,6 @@ function Currents() {
             <img
               src={require("../../assets/images/1.jpg")}
               alt="current project"
-              width={500}
             />
           </div>
         </div>
