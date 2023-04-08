@@ -1,3 +1,72 @@
+/* import clash display font from my fonts folder */
+
+@font-face {
+  font-family: "ClashDisplayBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/clash fonts/OTF/ClashDisplay-Bold.otf");
+}
+
+@font-face {
+  font-family: "ClashDisplayRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/clash fonts/OTF/ClashDisplay-Regular.otf");
+}
+
+@font-face {
+  font-family: "ClashDisplayLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/clash fonts/OTF/ClashDisplay-Light.otf");
+}
+
+@font-face {
+  font-family: "ClashDisplayMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/clash fonts/OTF/ClashDisplay-Medium.otf");
+}
+
+@font-face {
+  font-family: "ClashDisplaysemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/clash fonts/OTF/ClashDisplay-Semibold.otf");
+}
+
+@font-face {
+  font-family: "ClashDisplayLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/clash fonts/OTF/ClashDisplay-Light.otf");
+}
+
+/* defaults */
+
+h1 {
+  font-family: "ClashDisplayBold";
+  letter-spacing: 4px;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "ClashDisplayRegular";
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "ClashDisplayRegular";
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "ClashDisplayLight";
+  font-size: 1rem;
+  padding: 0;
+  margin: 8px;
+}
+
 /* scrollbar hide */
 
 ::-webkit-scrollbar {

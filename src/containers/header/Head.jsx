@@ -90,7 +90,7 @@ const Head = () => {
           >
             <a href="@" className="nav__logo">
               <img src={logo} alt="paulslogo" />
-              <h1>OCHIENG</h1>
+              <h1>PAUL</h1>
             </a>
             <ul className="nav__list">
               <li className="nav__item">
@@ -130,7 +130,7 @@ const Head = () => {
 
           <div className="intro__wrapper">
             <div className="intro">
-              <h1 className="intro__title">Hi, I'm Paul Ochieng</h1>
+              <h1 className="intro__title">Hey, I'm Paul</h1>
               <h2 className="intro__subtitle">
                 I'm a web and mobile developer
               </h2>

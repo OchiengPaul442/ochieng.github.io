@@ -38,11 +38,11 @@ const Projects = () => {
         </h2>
         <div className="projects_con">
           <div className="project__card">
-            <div className="project__card__title">My Portfolio site</div>
-            <div className="project__card__description">
+            <h1 className="project__card__title">My Portfolio site</h1>
+            <p className="project__card__description">
               Software Developer Portfolio site built with ReactJS to showcase
               my skills and projects.
-            </div>
+            </p>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -67,14 +67,14 @@ const Projects = () => {
             </a>
           </div>
           <div className="project__card">
-            <div className="project__card__title">
+            <h1 className="project__card__title">
               Cubeenineering and general supplies LTD (Website)
-            </div>
-            <div className="project__card__description">
+            </h1>
+            <p className="project__card__description">
               A website for a company that deals with the supply of building and
               construction materials, electrical and plumbing materials, and all
               kinds of hardware. Built with Laravel, PHP, and MySQL.
-            </div>
+            </p>
             <div className="view__wrapper">
               <a
                 target="_blank"
@@ -109,14 +109,14 @@ const Projects = () => {
             </div>
           </div>
           <div className="project__card">
-            <div className="project__card__title">
+            <h1 className="project__card__title">
               E-LOOK (Website for Mobile App)
-            </div>
-            <div className="project__card__description">
+            </h1>
+            <p className="project__card__description">
               A website for a mobile app showcasing the features of the app. The
               app is a cross-platform mobile application that allows users to
               search for and book beauty services.
-            </div>
+            </p>
             <div className="view__wrapper">
               <a
                 target="_blank"
@@ -151,14 +151,14 @@ const Projects = () => {
             </div>
           </div>
           <div className="project__card">
-            <div className="project__card__title">
+            <h1 className="project__card__title">
               Cloud chat(chat application)
-            </div>
-            <div className="project__card__description">
+            </h1>
+            <p className="project__card__description">
               A chat application built with HTML,CSS, NodeJS, ExpressJS, and the
               socket.io library. It allows users to chat with each other in real
               time.
-            </div>
+            </p>
             <a
               target="_blank"
               rel="noopener noreferrer"
