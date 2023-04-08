@@ -28,8 +28,10 @@ import laravel from "../assets/icons/laravel.svg";
 import unra from "../assets/images/unralogo.png";
 import paul from "../assets/images/paul.png";
 import logo from "../assets/images/paulslogo.png";
+import makererelogo from "../assets/images/makererelogo.png";
 
 export {
+  makererelogo,
   logo,
   menu,
   cases,

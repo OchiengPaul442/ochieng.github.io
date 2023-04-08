@@ -15,8 +15,17 @@ import animationData from "../../assets/animations/clark.json";
 import CircularIcons from "../../components/circularicon/CircularIcons";
 import Modal from "../../components/modals/Modal";
 import Scroll from "../../components/scroll/Scroll";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Head = () => {
+  // screen width
+  const [width, setWidth] = React.useState(window.innerWidth);
+  const breakpoint = 768;
+
+  React.useEffect(() => {
+    window.addEventListener("resize", () => setWidth(window.innerWidth));
+  }, []);
+
   //show and hide modal
   const [showModal, setShowModal] = React.useState(false);
 
@@ -220,7 +229,13 @@ const Head = () => {
               />
             </div>
             <div className="intro__img">
-              <Lottie options={defaultOptions} height={400} width={400} />
+              <ScrollAnimation animateIn="fadeInDown" animateOnce={true}>
+                <Lottie
+                  options={defaultOptions}
+                  height={breakpoint < width ? 400 : 300}
+                  width={breakpoint < width ? 400 : 300}
+                />
+              </ScrollAnimation>
             </div>
           </div>
         </div>
