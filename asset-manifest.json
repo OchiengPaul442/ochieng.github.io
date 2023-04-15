@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfoliosite/static/css/main.3c1e3181.css",
-    "main.js": "/portfoliosite/static/js/main.2d5de624.js",
+    "main.js": "/portfoliosite/static/js/main.806f690b.js",
+    "static/media/PROMED.png": "/portfoliosite/static/media/PROMED.e17dc4ddf7cbb19fb53d.png",
     "static/media/makererelogo.png": "/portfoliosite/static/media/makererelogo.b57c20924ffaf13f489a.png",
-    "static/media/1.jpg": "/portfoliosite/static/media/1.0a8f81b9233968f84fe2.jpg",
     "static/media/paul.png": "/portfoliosite/static/media/paul.d80c227fc7b88f0e9194.png",
     "static/media/ClashDisplay-Medium.otf": "/portfoliosite/static/media/ClashDisplay-Medium.afcc86306d88484344b4.otf",
     "static/media/ClashDisplay-Semibold.otf": "/portfoliosite/static/media/ClashDisplay-Semibold.4502ac103e57426165ae.otf",
@@ -44,10 +44,10 @@
     "static/media/tailwind.svg": "/portfoliosite/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/html5.svg": "/portfoliosite/static/media/html5.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "main.3c1e3181.css.map": "/portfoliosite/static/css/main.3c1e3181.css.map",
-    "main.2d5de624.js.map": "/portfoliosite/static/js/main.2d5de624.js.map"
+    "main.806f690b.js.map": "/portfoliosite/static/js/main.806f690b.js.map"
   },
   "entrypoints": [
     "static/css/main.3c1e3181.css",
-    "static/js/main.2d5de624.js"
+    "static/js/main.806f690b.js"
   ]
 }
