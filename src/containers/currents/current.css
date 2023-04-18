@@ -1,3 +1,9 @@
+/*----------- Variable colors -------------*/
+
+@import url("../../static/Themes.css");
+
+/*------- Current_projects -------*/
+
 .current__project {
   display: flex;
   flex-direction: row;
@@ -22,7 +28,7 @@
 .Project_intro h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #5a5d87;
+  color: var(--primary-color);
   margin-bottom: 1rem;
 }
 
@@ -32,7 +38,13 @@
   margin-bottom: 1rem;
 }
 
-/* mobile view */
+.current__project__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*------- mobile view -------*/
 
 @media screen and (max-width: 768px) {
   .current__project {

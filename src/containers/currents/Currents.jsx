@@ -21,9 +21,8 @@ function Currents() {
           </div>
           <div className="current__project__image">
             <img
-              src={require("../../assets/images/1.jpg")}
+              src={require("../../assets/images/PROMED.png")}
               alt="current project"
-              width={500}
             />
           </div>
         </div>

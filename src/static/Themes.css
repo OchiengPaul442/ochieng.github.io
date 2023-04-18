@@ -1,0 +1,14 @@
+/*----------- Variable colors -------------*/
+
+:root {
+  --primary-color: #5a5d87;
+  --secondary-color: #119bef;
+  --light-primary-color: #738cc81a;
+  --light-dark-secondary-color: #e3e5ff;
+  --dark-color: #000000;
+  --dark-blue-color: #0f1923;
+  --orange-color: #ff8c00;
+  --light-color: #7d8082;
+  --white-color: #ffffff;
+  --background-color: #ffffff;
+}

@@ -1,4 +1,19 @@
-/* import clash display font from my fonts folder */
+/*----------- Variable colors -------------*/
+
+:root {
+  --primary-color: #5a5d87;
+  --secondary-color: #119bef;
+  --light-primary-color: #738cc81a;
+  --light-dark-secondary-color: #e3e5ff;
+  --dark-color: #000000;
+  --dark-blue-color: #0f1923;
+  --orange-color: #ff8c00;
+  --light-color: #7d8082;
+  --white-color: #ffffff;
+  --background-color: #ffffff;
+}
+
+/*----------- import clash display font from my fonts folder -----------*/
 
 @font-face {
   font-family: "ClashDisplayBold";
@@ -42,7 +57,7 @@
   src: url("../assets/fonts/clash fonts/OTF/ClashDisplay-Light.otf");
 }
 
-/* defaults */
+/*----------- defaults -----------*/
 
 h1 {
   font-family: "ClashDisplayBold";
@@ -67,7 +82,7 @@ p {
   margin: 8px;
 }
 
-/* scrollbar hide */
+/*----------- scrollbar hide -----------*/
 
 ::-webkit-scrollbar {
   display: none;
@@ -101,7 +116,7 @@ a {
   justify-content: flex-start;
 }
 
-/* button css on github link */
+/*----------- button css on github link -----------*/
 
 .Github__link {
   display: flex;
@@ -113,7 +128,7 @@ a {
 
 .Github__link h1 {
   text-align: center;
-  color: #5a5d87;
+  color: var(--primary-color);
 }
 
 button {
@@ -142,7 +157,7 @@ button.learn-more .circle {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #119bef;
+  background: var(--secondary-color);
   border-radius: 1.625rem;
 }
 
@@ -152,7 +167,7 @@ button.learn-more .circle .icon {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fff;
+  background: var(--white-color);
 }
 
 button.learn-more .circle .icon.arrow {
@@ -170,8 +185,8 @@ button.learn-more .circle .icon.arrow::before {
   right: 0.0625rem;
   width: 0.625rem;
   height: 0.625rem;
-  border-top: 0.125rem solid #fff;
-  border-right: 0.125rem solid #fff;
+  border-top: 0.125rem solid var(--white-color);
+  border-right: 0.125rem solid var(--white-color);
   transform: rotate(45deg);
 }
 
@@ -196,25 +211,25 @@ button:hover .circle {
 }
 
 button:hover .circle .icon.arrow {
-  background: #fff;
+  background: var(--white-color);
   transform: translate(1rem, 0);
 }
 
 button:hover .button-text {
-  color: #fff;
+  color: var(--white-color);
 }
 
-/* other tools sections */
+/*----------- other tools sections -----------*/
 
 .other__tools {
   width: 100%;
   padding: 20px 0;
-  background-color: #738cc81a;
+  background-color: var(--light-primary-color);
 }
 
 .other__tool__text h1 {
   text-align: center;
-  color: #5a5d87;
+  color: var(--primary-color);
   margin-bottom: 25px;
 }
 
@@ -225,4 +240,26 @@ button:hover .button-text {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+/*----------- mobile view -----------*/
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .other__tools__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
