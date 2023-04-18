@@ -1,3 +1,9 @@
+/*----------- Variable colors -------------*/
+
+@import url("../../static/Themes.css");
+
+/*------- Experience section -------*/
+
 .exp_container {
   position: relative;
   width: 100%;
@@ -36,7 +42,7 @@
   align-items: center;
   padding: 20px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(116, 116, 116, 0.3);
   transition: all 0.3s ease-in-out;
@@ -46,6 +52,32 @@
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(116, 116, 116, 0.5);
 }
+
+.experience__banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+  background-color: var(--primary-color);
+  clip-path: inset(21% 0 15% 23%);
+}
+
+.experience__banner_2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+  background-color: var(--primary-color);
+  clip-path: inset(22% 15% 15% 0);
+}
+
+/*------- Job section -------*/
 
 .job__location,
 .job__duration,
@@ -57,7 +89,7 @@
 .job__location,
 .job__duration,
 .company__name {
-  color: #5a5d87;
+  color: var(--primary-color);
 }
 
 .job__description {
@@ -78,31 +110,7 @@
   font-weight: 700;
 }
 
-.experience__banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 400px;
-  z-index: -1;
-  background-color: #5a5d87;
-  clip-path: inset(21% 0 15% 23%);
-}
-
-.experience__banner_2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 400px;
-  z-index: -1;
-  background-color: #5a5d87;
-  clip-path: inset(22% 15% 15% 0);
-}
-
-/* responsiveness of the screen */
+/*------- responsiveness of the screen -------*/
 
 @media screen and (max-width: 768px) {
   .experience__banner {

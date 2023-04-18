@@ -1,3 +1,9 @@
+/*----------- Variable colors -------------*/
+
+@import url("../../static/Themes.css");
+
+/*-------- Work section --------*/
+
 .work__left {
   width: 50%;
   height: auto;
@@ -26,7 +32,7 @@
 .work__right__title {
   font-size: 35px;
   font-weight: 700;
-  color: #000000;
+  color: var(--dark-color);
   text-decoration: none;
 }
 
@@ -41,7 +47,7 @@
 }
 
 .work__container h1 {
-  color: #5a5d87;
+  color: var(--primary-color);
 }
 
 .work__title {
@@ -57,7 +63,7 @@
 .work__title h1 {
   font-size: 40px;
   font-weight: 700;
-  color: #5a5d87;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -70,7 +76,7 @@
   align-items: center;
 }
 
-/* responsiveness of the screen */
+/*-------- responsiveness of the screen --------*/
 
 @media screen and (max-width: 768px) {
   .work__title h1 {

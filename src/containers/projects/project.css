@@ -1,3 +1,9 @@
+/*----------- Variable colors -------------*/
+
+@import url("../../static/Themes.css");
+
+/*-------- Projects section --------*/
+
 .project__title {
   margin-bottom: 20px;
   display: flex;
@@ -38,7 +44,7 @@
   font-size: 32px;
   flex-direction: row;
   align-items: center;
-  color: #5a5d87;
+  color: var(--primary-color);
   justify-content: flex-start;
 }
 
@@ -75,7 +81,7 @@
   height: 47px;
   margin: 0 10px;
   border-radius: 5px;
-  background-color: #5a5d87;
+  background-color: var(--primary-color);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
@@ -85,7 +91,7 @@
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-/* mobile view */
+/*-------- mobile view --------*/
 
 @media screen and (max-width: 768px) {
   .project__title {
@@ -124,7 +130,7 @@
     font-size: 32px;
     flex-direction: row;
     align-items: center;
-    color: #5a5d87;
+    color: var(--primary-color);
     justify-content: flex-start;
   }
   .project__card__description {
@@ -157,7 +163,7 @@
     height: 47px;
     margin: 0 10px;
     border-radius: 5px;
-    background-color: #5a5d87;
+    background-color: var(--primary-color);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
   }
