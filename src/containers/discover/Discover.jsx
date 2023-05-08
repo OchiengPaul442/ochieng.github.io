@@ -5,6 +5,7 @@ import { ReactComponent as Hub } from "../../assets/icons/hub.svg";
 import { ReactComponent as Php } from "../../assets/icons/php.svg";
 import { ReactComponent as Mysql } from "../../assets/icons/mysql.svg";
 import { ReactComponent as Tailwind } from "../../assets/icons/tailwind.svg";
+import { ReactComponent as Heroku } from "../../assets/icons/heroku.svg";
 import { ReactComponent as Vscode } from "../../assets/icons/vscode.svg";
 import { ReactComponent as Stackover } from "../../assets/icons/stackover.svg";
 
@@ -47,6 +48,7 @@ function Discover() {
             <Php width={60} height={60} />
             <Mysql width={60} height={60} />
             <Tailwind width={40} height={60} />
+            <Heroku width={60} height={60} />
             <Hub width={60} height={60} />
           </div>
         </div>

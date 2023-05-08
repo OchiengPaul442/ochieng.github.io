@@ -18,6 +18,7 @@ import {
   node,
   bolt,
   laravel,
+  firebase,
 } from "../../constants";
 
 const Work = () => {
@@ -266,6 +267,19 @@ const Work = () => {
                   marginTop: 3,
                 }}
                 alt="figma"
+                circledimension={{
+                  width: 64,
+                  height: 64,
+                }}
+              />
+              <CircularIcons
+                icon={firebase}
+                style={{
+                  width: 34,
+                  height: 34,
+                  marginTop: 3,
+                }}
+                alt="reps"
                 circledimension={{
                   width: 64,
                   height: 64,
