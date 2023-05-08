@@ -61,7 +61,7 @@ const Experience = () => {
                   }}
                 />
 
-                <h3 className="job__title">Software Engineer Intern</h3>
+                <h3 className="job__title">Software Developer Intern</h3>
                 <p className="company__name">Uganda National Roads Authority</p>
 
                 <p className="job__duration">June 2022 - August 2022</p>
@@ -125,7 +125,9 @@ const Experience = () => {
                   }}
                 />
 
-                <h3 className="job__title">Volunteer Intern</h3>
+                <h3 className="job__title">
+                  Systems administration Volunteer Intern
+                </h3>
                 <p className="company__name">
                   Makerere University <br /> Directorate for ICT Support (DICTS)
                 </p>

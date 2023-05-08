@@ -23,6 +23,8 @@ import contact from "../assets/icons/contact.svg";
 import downarrow from "../assets/icons/downarrow.svg";
 import menu from "../assets/icons/menu.svg";
 import laravel from "../assets/icons/laravel.svg";
+import firebase from "../assets/icons/firebase.svg";
+import heroku from "../assets/icons/heroku.svg";
 
 // images
 import unra from "../assets/images/unralogo.png";
@@ -31,6 +33,8 @@ import logo from "../assets/images/paulslogo.png";
 import makererelogo from "../assets/images/makererelogo.png";
 
 export {
+  heroku,
+  firebase,
   makererelogo,
   logo,
   menu,
