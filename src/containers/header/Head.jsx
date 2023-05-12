@@ -72,7 +72,7 @@ const Head = () => {
   const handlePress = () => {
     // download resume
     const Doc =
-      "https://drive.google.com/file/d/1V8hKJAW8Yuulsa39EvxmJ9StvYZuv6vz/view?usp=sharing";
+      "https://drive.google.com/file/d/1N1bAPh80yUWtBy1is7QWtM8Rq6-DXrIT/view?usp=sharing";
     window.open(Doc, "_blank");
   };
 
