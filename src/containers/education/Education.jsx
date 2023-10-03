@@ -35,9 +35,9 @@ const Education = () => {
                 Makerere University
               </h1>
               <h4>Bachelor of Science in Computer Science</h4>
-              <p className="education__content__item__date">2020 - current</p>
+              <p className="education__content__item__date">2020 - 2023</p>
             </div>
-            <span className="badge">Student</span>
+            <span className="badge">open to work</span>
           </div>
         </div>
 
@@ -67,7 +67,7 @@ const Education = () => {
               <div className="progress__bars__item__bar">
                 <div
                   className="progress__bars__item__bar__fill"
-                  style={{ width: "60%" }}
+                  style={{ width: "75%" }}
                 ></div>
               </div>
             </div>

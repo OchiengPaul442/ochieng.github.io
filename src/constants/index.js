@@ -25,14 +25,20 @@ import menu from "../assets/icons/menu.svg";
 import laravel from "../assets/icons/laravel.svg";
 import firebase from "../assets/icons/firebase.svg";
 import heroku from "../assets/icons/heroku.svg";
+import tailwind from "../assets/icons/tailwind.svg";
+import nextjs from "../assets/icons/nextjs.svg";
 
 // images
 import unra from "../assets/images/unralogo.png";
 import paul from "../assets/images/paul.png";
 import logo from "../assets/images/paulslogo.png";
 import makererelogo from "../assets/images/makererelogo.png";
+import airQo from "../assets/images/airqo-logo.png";
 
 export {
+  airQo,
+  nextjs,
+  tailwind,
   heroku,
   firebase,
   makererelogo,

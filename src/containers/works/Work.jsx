@@ -17,8 +17,9 @@ import {
   reps,
   node,
   bolt,
-  laravel,
+  tailwind,
   firebase,
+  nextjs,
 } from "../../constants";
 
 const Work = () => {
@@ -119,7 +120,7 @@ const Work = () => {
                 }}
               />
               <CircularIcons
-                icon={laravel}
+                icon={tailwind}
                 style={{
                   width: 34,
                   height: 34,
@@ -133,6 +134,19 @@ const Work = () => {
               />
               <CircularIcons
                 icon={npm}
+                style={{
+                  width: 34,
+                  height: 34,
+                  marginTop: 3,
+                }}
+                alt="npm"
+                circledimension={{
+                  width: 64,
+                  height: 64,
+                }}
+              />
+              <CircularIcons
+                icon={nextjs}
                 style={{
                   width: 34,
                   height: 34,
@@ -201,14 +215,7 @@ const Work = () => {
                 />
                 <p>Building responsive Single-Page-Apps in React.js</p>
               </span>
-              <span className="desc_info">
-                <img
-                  src={bolt}
-                  alt="bolt"
-                  style={{ marginRight: "8px", width: 20, height: 20 }}
-                />
-                <p>Building E-commerce sites in Laravel</p>
-              </span>
+
               <span className="desc_info">
                 <img
                   src={bolt}
