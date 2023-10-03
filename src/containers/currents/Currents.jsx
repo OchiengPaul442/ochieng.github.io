@@ -1,34 +1,30 @@
-import React from "react";
-import "./current.css";
+import React from 'react';
+import './current.css';
 
 function Currents() {
-  return (
-    <section className="wrapper">
-      <div className="container">
-        <div className="other__tool__text">
-          <h1>Current Running Project</h1>
-        </div>
-        <div className="current__project">
-          <div className="Project_intro">
-            <h1>PROMED APP</h1>
-            <p>
-              Promed is a mental health mobile app that will help users cope
-              with anxiety and depression by providing them with four main
-              features: a discussion board, a chatbot, a diagnosis tool and a
-              mood tracker. The app is currently in development and will be
-              released in the coming months.
-            </p>
-          </div>
-          <div className="current__project__image">
-            <img
-              src={require("../../assets/images/PROMED.png")}
-              alt="current project"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+    return (
+        <section className="wrapper">
+            <div className="container">
+                <div className="contribution__text">
+                    <h1>Open Source Contributions</h1>
+                </div>
+                <div className="contributions">
+                    <div className="contribution_intro">
+                        <h1>AirQo</h1>
+                        <p>
+                            AirQo is an initiative that aims to monitor and quantify air pollution in African cities. I
+                            have made significant contributions to the AirQo platform, particularly in the areas of bug
+                            fixes and UI improvements. These contributions have helped enhance the platform's
+                            performance and user experience.
+                        </p>
+                    </div>
+                    <div className="contribution__image">
+                        <img src={require('../../assets/images/airqo-logo.png')} alt="AirQo logo" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
 }
 
 export default Currents;
